@@ -1,0 +1,40 @@
+{
+  "name": "ecs-project-backend",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with Fastify-CLI.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap \"test/**/*.test.js\"",
+    "start": "fastify start -l info app.js",
+    "dev": "fastify start -w -l info -P app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^5.0.0",
+    "@fastify/cors": "^8.4.1",
+    "@fastify/jwt": "^7.2.4",
+    "@fastify/mongodb": "^8.0.0",
+    "@fastify/sensible": "^5.0.0",
+    "@socket.io/admin-ui": "^0.5.1",
+    "@socket.io/redis-adapter": "^8.2.1",
+    "ajv-errors": "^3.0.0",
+    "fast-json-stringify": "^5.9.1",
+    "fastify": "^4.0.0",
+    "fastify-axios": "^1.2.6",
+    "fastify-bcrypt": "^1.0.0",
+    "fastify-cli": "^5.9.0",
+    "fastify-plugin": "^4.0.0",
+    "fastify-socket.io": "^5.0.0",
+    "redis": "^4.6.11",
+    "socket.io": "^4.7.2",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "tap": "^16.1.0"
+  }
+}
